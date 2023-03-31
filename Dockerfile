@@ -14,7 +14,7 @@ ENV NODE_ENV production
 # These are the bare minimum needed for running
 # the app. Feel free to add more as per your needs.
 ENV REACT_APP_TILE_SHAPE=1-1
-ENV REACT_APP_THEME=dark
+ENV REACT_APP_THEME=light
 ENV REACT_APP_COLOR=#2F80FF
 ENV REACT_APP_LOGO='provide your logo img url here'
 ENV REACT_APP_FONT=Inter
