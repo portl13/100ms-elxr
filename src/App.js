@@ -75,7 +75,7 @@ export function EdtechComponent({
     aspectRatio = "1-1",
     font = "Roboto",
     color = "#2F80FF",
-    theme = "dark",
+    theme = "light",
     logo = "",
     headerPresent = "false",
     metadata = "",
