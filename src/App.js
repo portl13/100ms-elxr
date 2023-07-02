@@ -95,7 +95,9 @@ export function EdtechComponent({
     <ErrorBoundary>
       <HMSThemeProvider
         themeType={theme}
-        aspectRatio={isStreamingKit() ? { width: 16, height: 9 } : { width: 1, height: 1 }}
+        aspectRatio={
+          isStreamingKit() ? { width: 16, height: 9 } : { width: 1, height: 1 }
+        }
         theme={{
           colors: {
             brandDefault: color,
